@@ -102,7 +102,7 @@ function handleLogin(event) {
         localStorage.setItem("mentesa_logged_in", "true");
         checkAuth();
         switchView("dashboard");
-        showToast("Bem-vinda de volta, Dra. Amanda!");
+        showToast("Bem-vinda de volta, Dra. Rosa M.!");
     } else {
         alert("Credenciais incorretas! Use terapeuta@exemplo.com / senha123");
     }
